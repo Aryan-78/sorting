@@ -1,1 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    border-radius: .5em;
+    box-sizing: border-box;
+}
 
+body{
+    display: flex;
+}
+
+.input{
+    border-style:dotted;
+    border-color: black;
+    width: 20vw;
+    height: 95vh;
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column
+}
+
+.input > * {
+    height: 5vh;
+    margin: 8px 0;    
+}
+
+.input > select{
+    padding: 0;
+}
+
+.display{
+    border-style:dotted;
+    border-color: black;
+    width: 80vw;
+    height: 95vh;
+    padding: 1%;
+    display: flex;
+}
+
+.bar{
+    border-style:solid;
+    border-color: black;
+    
+}
