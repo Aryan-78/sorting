@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">    
+</head>
+<body> 
+    <div class="input" >
+        Value Not More than 50
+        <input type="text" id="size">
+        <select name="sort" id="sort">
+            <option value="bubble">bubble</option>
+            <option value="selection">selection</option>
+            <option value="insertion">insertion</option>
+            <option value="quick">quick</option>
+        </select>
+        <select name="speed" id="speed" >
+            <option value="50">fast</option>
+            <option value="100">medium</option>
+            <option value="150">slow</option>
+        </select>
+        <button type="button" onclick="triggerAlgo()">Sort</button>
+    </div>
+    
+    <div class="display" id="display" style="display: flex;align-items: end;" > 
+    
+    </div>
+
+    <script src="./js/script.js" defer > </script>
+    <script src="./js/sorting.js" defer > </script>
+</body>
+</html>
