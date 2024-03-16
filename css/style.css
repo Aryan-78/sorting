@@ -7,11 +7,17 @@
 
 body{
     display: flex;
+    background: #2980B9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
 }
 
 .input{
     border-style:dotted;
     border-color: black;
+    /*background: #2193b0;  
+    background: -webkit-linear-gradient(to top, #6dd5ed, #2193b0); 
+    background: linear-gradient(to top, #6dd5ed, #2193b0); */
     width: 20vw;
     height: 95vh;
     padding: 1%;
@@ -33,7 +39,10 @@ body{
 .display{
     border-style:dotted;
     border-color: black;
-    width: 80vw;
+    /*background: #2980B9;  
+    background: -webkit-linear-gradient(to bottom, #FFFFFF, #6DD5FA, #2980B9);
+    background: linear-gradient(to bottom, #FFFFFF, #6DD5FA, #2980B9); 
+    */width: 80vw;
     height: 95vh;
     padding: 1%;
     display: flex;
